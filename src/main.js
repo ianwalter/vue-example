@@ -1,6 +1,6 @@
 import Vue from 'vue'
 
-import App from '@/App'
+import App from './App'
 
 // Turn off logging of production tip.
 Vue.config.productionTip = false
