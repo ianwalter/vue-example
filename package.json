@@ -5,7 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack",
+    "lint": "eslint --ext .js,.vue src index.js"
   },
   "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
   "license": "ISC",
@@ -16,6 +17,13 @@
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.5",
     "babel-loader": "^8.0.4",
+    "eslint": "^3.9.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-friendly-formatter": "^2.0.5",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-html": "^1.5.5",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1",
     "html-webpack-plugin": "^3.2.0",
     "vue-loader": "^15.4.2",
     "vue-template-compiler": "^2.5.17",
@@ -29,6 +37,12 @@
   "babel": {
     "presets": [
       "@babel/preset-env"
+    ]
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "standard"
     ]
   }
 }
