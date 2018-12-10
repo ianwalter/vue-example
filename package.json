@@ -11,7 +11,7 @@
   "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
-    "vue": "^2.5.17"
+    "vue": "^2.5.19"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
