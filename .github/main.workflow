@@ -21,3 +21,10 @@ action "Lint" {
   runs = "yarn"
   args = "lint"
 }
+
+action "Bundlewatch" {
+  uses = "docker://node:11-alpine"
+  needs = ["Install"]
+  runs = "yarn"
+  args = "bundlewatch"
+}
