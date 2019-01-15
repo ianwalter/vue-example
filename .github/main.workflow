@@ -1,6 +1,6 @@
 workflow "CI" {
   on = "push"
-  resolves = ["Build", "Lint"]
+  resolves = ["Build", "Lint", "Bundlewatch"]
 }
 
 action "Install" {
@@ -20,4 +20,11 @@ action "Lint" {
   needs = ["Install"]
   runs = "yarn"
   args = "lint"
+}
+
+action "Bundlewatch" {
+  uses = "docker://node:11-alpine"
+  needs = ["Install"]
+  runs = "yarn"
+  args = "bundlewatch"
 }
