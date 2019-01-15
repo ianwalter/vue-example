@@ -4,9 +4,10 @@
   "description": "A simple example of a Webpack-generated Vue application",
   "main": "webpack.config.js",
   "scripts": {
+    "lint": "eslint src --ext js,vue",
     "start": "webpack-dev-server",
-    "build": "webpack --env.singleRun",
-    "lint": "eslint src --ext js,vue"
+    "build": "webpack -p --env.singleRun",
+    "bundlewatch": "bundlewatch"
   },
   "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
   "license": "SEE LICENSE IN LICENSE",
@@ -17,6 +18,7 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "babel-loader": "^8.0.5",
+    "bundlewatch": "^0.2.1",
     "clean-webpack-plugin": "^1.0.0",
     "eslint": "^5.12.0",
     "eslint-config-standard": "^12.0.0",
@@ -53,5 +55,13 @@
     "rules": {
       "vue/multiline-html-element-content-newline": 0
     }
+  },
+  "bundlewatch": {
+    "files": [
+      {
+        "path": "dist/js/*.js",
+        "maxSize": "100kB"
+      }
+    ]
   }
 }
