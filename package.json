@@ -7,7 +7,7 @@
     "lint": "eslint src --ext js,vue",
     "start": "webpack-dev-server",
     "build": "webpack -p --env.singleRun",
-    "bundlewatch": "bundlewatch"
+    "bundlewatch": "BUNDLEWATCH_GITHUB_TOKEN=$GITHUB_TOKEN CI_COMMIT_SHA=$GITHUB_SHA CI_BRANCH=$GITHUB_REF bundlewatch"
   },
   "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
   "license": "SEE LICENSE IN LICENSE",
