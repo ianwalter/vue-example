@@ -29,10 +29,10 @@ action "Bundlewatch" {
   args = "bundlewatch"
   secrets = ["GITHUB_TOKEN"]
   env = {
-    BUNDLEWATCH_GITHUB_TOKEN = "$GITHUB_TOKEN"
+    BUNDLEWATCH_GITHUB_TOKEN = "${GITHUB_TOKEN}"
     CI_REPO_OWNER = "ianwalter"
     CI_REPO_NAME = "vue-example"
-    CI_COMMIT_SHA = "$GITHUB_SHA"
-    CI_BRANCH = "$GITHUB_BRANCH"
+    CI_COMMIT_SHA = "${GITHUB_SHA}"
+    CI_BRANCH = "${GITHUB_BRANCH}"
   }
 }
