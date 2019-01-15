@@ -33,6 +33,6 @@ action "Bundlewatch" {
     CI_REPO_OWNER = "ianwalter"
     CI_REPO_NAME = "vue-example"
     CI_COMMIT_SHA = "${GITHUB_SHA}"
-    CI_BRANCH = "${GITHUB_BRANCH}"
+    CI_BRANCH = "${GITHUB_REF}"
   }
 }
