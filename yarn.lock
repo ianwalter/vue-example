@@ -779,12 +779,13 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@ianwalter/eslint-config-vue@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config-vue/-/eslint-config-vue-1.0.1.tgz#cdafb786810d2a45a212503ec0712ea13bced289"
-  integrity sha512-Gf7Qg0ZErZ7vk9ya6sIeA9aZz2vtRJ4u+4QRBmE8r345lQNeoCCcCCESmFgixxmLL7s4KxIXGYzTJj0p6hw29g==
+"@ianwalter/eslint-config-vue@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config-vue/-/eslint-config-vue-1.2.0.tgz#c996fa857185ec7549185ac116b4d724ee95a0dc"
+  integrity sha512-LePFADTQAdsBiaP2OPWRN7tzDGr6lUz6KlFP2XBLEwmmrkJ3WT/n78BY2GDKjQyZhClQhpQfW+kF0VwyDWPO3A==
   dependencies:
     "@ianwalter/eslint-config" "^1.1.1"
+    babel-eslint "^10.0.1"
     eslint "^5.14.1"
     eslint-plugin-vue "^5.2.2"
 
