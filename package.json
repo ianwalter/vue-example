@@ -16,7 +16,7 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
-    "@ianwalter/eslint-config-vue": "^1.2.0",
+    "@ianwalter/eslint-config-vue": "^2.0.1",
     "@ianwalter/renovate-config": "^1.2.0",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^1.0.1",
