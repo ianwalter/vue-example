@@ -14,7 +14,7 @@
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.4",
+    "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "@ianwalter/eslint-config-vue": "^1.2.0",
     "@ianwalter/renovate-config": "^1.2.0",
