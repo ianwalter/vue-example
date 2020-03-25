@@ -5,9 +5,8 @@
 
 - [react-example](https://github.com/ianwalter/react-example)
 - [preact-example](https://github.com/ianwalter/preact-example)
-- [eslint-config-vue](https://github.com/ianwalter/eslint-config-vue)
-- [vue-example](https://github.com/ianwalter/vue-example)
 - [svelte-example](https://github.com/ianwalter/svelte-example)
+- [eslint-config-vue](https://github.com/ianwalter/eslint-config-vue)
 
 ## License
 
